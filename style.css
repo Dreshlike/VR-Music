@@ -3,16 +3,19 @@
 body {
   margin: 0;
   background: white;
+    width: 80%;
+    margin: 0 auto;
 }
 header {
   background: white;
   text-align: left;
     display: flex;
+    padding-top: 20px;
 }
 header a {
   text-decoration: none;
   outline: none;
-  display: block;
+  display: flex;
   transition: .3s ease-in-out;
 }
 .logo {
@@ -20,11 +23,11 @@ header a {
   font-family: 'Fjalla One', sans-serif;
 font-weight: 800;
   font-size: 2.5em;
-  padding: 20px 0;
 }
 nav {
-  display: table;
-  margin: 0 auto;
+  display: flex;
+    width: 100%;
+
 }
 nav ul {
   list-style: none;
@@ -34,6 +37,10 @@ nav ul {
 .topmenu:after {
   display: table;
   clear: both;
+
+}
+.topmenu{
+    width: 100%;
 }
 .topmenu > li {
   width:20%;
@@ -46,7 +53,7 @@ nav ul {
   font-size: 14px;
   font-weight: bold;
   color: #000;
-  padding: 15px 30px;
+  padding: 15px 25px;
 }
 .topmenu li a:hover { color: #A67312;}
 .submenu-link:after {
@@ -61,7 +68,6 @@ nav ul {
   left: 0;
   top: 100%;
   z-index: 5;
-  width: 180px;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: 0 0;
