@@ -57,7 +57,7 @@ nav ul {
   color: #000;
   padding: 15px 25px;
     padding-left: 0;
-    margin-left: 15px;
+    margin-left:0;
     margin-top: 3px;
 }
 .topmenu li a:hover { color: #A67312;}
@@ -68,7 +68,7 @@ nav ul {
 
 }
 .submenu {
-  background: #FFCB69;
+  background: #fff;
   position: absolute;
   left: 0;
   top: 100%;
@@ -134,4 +134,8 @@ nav ul {
 .table{
   border: 2px solid black;
   padding: 5px;
+}
+.submenu li a{
+    padding: 0;
+    padding-top: 10px;
 }
