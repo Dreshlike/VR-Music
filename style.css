@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
 * { box-sizing: border-box; }
 body {
   margin: 0;
@@ -6,6 +7,7 @@ body {
 header {
   background: white;
   text-align: left;
+    display: flex;
 }
 header a {
   text-decoration: none;
@@ -14,12 +16,11 @@ header a {
   transition: .3s ease-in-out;
 }
 .logo {
-  color: #FFD991;
-  font-family: cursive;
+  color: #000;
+  font-family: 'Fjalla One', sans-serif;
+font-weight: 800;
   font-size: 2.5em;
   padding: 20px 0;
-  text-shadow: 2px 2px 3px black, 0 0 1em white;
-  border-bottom: 2px solid white;
 }
 nav {
   display: table;
@@ -44,7 +45,7 @@ nav ul {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
-  color: white;
+  color: #000;
   padding: 15px 30px;
 }
 .topmenu li a:hover { color: #A67312;}
@@ -67,7 +68,7 @@ nav ul {
   transition: .5s ease-in-out;
 }
 .submenu a {
-  color: white;
+  color: #000;
   text-align: left;
   padding: 12px 15px;
   font-size: 13px;
