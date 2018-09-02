@@ -149,5 +149,9 @@ a:visited{
 .vyb{
     float:left
     padding-top: 20px;
-    display:inline;
+
+}
+.first{
+    display: flex;
+    padding: 0;
 }
