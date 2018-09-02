@@ -129,3 +129,17 @@ a:visited{
     text-align: center;
     padding-top: 20%;
 }
+.ind{
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+    font-size: 5.5em;
+    padding-top: 25%;
+}
+.vyb{
+    float:left
+    padding-top: 20px;
+    display:inline;
+}
