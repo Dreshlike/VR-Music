@@ -1,57 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
-* { box-sizing: border-box; }
 body {
-  margin: 0;
-  width: 80%;
-  margin: 0 auto;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
 }
 header {
-  text-align: center;
-  display: block;
-  padding-top: 30px;
-  background: white;
-  text-align: left;
-    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    background: white;
+    text-align: left;
     padding-top: 40px;
 
 }
+.prof{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
 header a {
-  text-decoration: none;
-  display: block;
-  transition: .3s ease-in-out;
+    text-decoration: none;
 }
 .logo {
-  color: #000;
-  font-family: 'Fjalla One', sans-serif;
-  font-weight: 700;
-  font-size: 2.5em;
-  }
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
 .logo2 {
-  color: #000;
-  font-family: 'Fjalla One', sans-serif;
-  font-weight: 450;
-  font-size: 1.5em;
-  }
-
-.p{
-  color: #FFD991;
-  font-family: cursive;
-  font-size: 1.5em;
- }
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 450;
+    font-size: 1.5em;
+}
+.p {
+    color: #FFD991;
+    font-family: cursive;
+    font-size: 1.5em;
+}
 .pr1 {
-    margin-top:30px;
+    margin-top: 30px;
     width: 200px;
     padding: 5px;
     border: solid 1px black;
-    float: left;
-	margin-left:100px;
-	text-align:center;
-   }
-
-a{text-decoration: none
-    font-family:'Roboto',sans-serif;
+    text-align: center;
+    height: 140px;
+    grid-gap: 1em;
 }
-div:hover {
-    border:solid 3px black;
-    text-decoration:none;
+a {
+    text-decoration: none font-family: 'Roboto', sans-serif;
+}
+div {
+    transition-duration: .2s;
+}
+.pr1:hover {
+    width: 196px;
+    height: 136px;
+}
+.pr1:hover {
+    border: solid 3px black;
+    text-decoration: none;
 }
