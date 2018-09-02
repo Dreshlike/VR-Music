@@ -34,6 +34,12 @@ header a {
     font-weight: 450;
     font-size: 1.5em;
 }
+.logo3
+{   color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+    font-size: 3.5em;
+    vertical-align: middle}
 .p {
     color: #FFD991;
     font-family: cursive;
@@ -67,4 +73,12 @@ div {
 a:visited{
     text-decoration: none;
     color: #000;
+}
+.first{color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 0.5em;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20%;
 }
