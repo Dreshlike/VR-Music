@@ -152,6 +152,11 @@ a:visited{
 
 }
 .first{
+    padding-top: 30px;
     display: flex;
     padding: 0;
+}
+.vybor{
+    display:flex;
+    float:left;
 }
