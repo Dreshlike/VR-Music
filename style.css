@@ -2,140 +2,51 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  background: white;
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 header {
-  background: white;
-  text-align: left;
-    display: flex;
-    padding-top: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 30px;
 }
 header a {
   text-decoration: none;
-  display: flex;
+  display: block;
   transition: .3s ease-in-out;
 }
 .logo {
   color: #000;
   font-family: 'Fjalla One', sans-serif;
-font-weight: 800;
+  font-weight: 700;
   font-size: 2.5em;
-}
-nav {
-  display: flex;
-    width: 100%;
-    margin-left: 30px;
-
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.topmenu:after {
-  display: table;
-  clear: both;
-
-}
-.topmenu{
-    width: 100%;
-    display: flex;
-
-}
-.topmenu > li {
-  text-align: center;
-
-  position: relative;
-  font-family: 'Roboto', sans-serif;
-}
-.topmenu > li > a {
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bold;
+  }
+.logo2 {
   color: #000;
-  padding: 15px 25px;
-    padding-left: 0;
-    margin-left:0;
-    margin-top: 3px;
-}
-.topmenu li a:hover { color: #A67312;}
-.submenu-link:after {
-  font-family: "FontAwesome";
-  color: inherit;
-  margin-left: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 450;
+  font-size: 1.5em;
+  }
 
-}
-.submenu {
-  background: #fff;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 5;
-  opacity: 0;
-  transform: scaleY(0);
-  transform-origin: 0 0;
-  transition: .5s ease-in-out;
-}
-.submenu a {
-  color: #000;
-  text-align: left;
-  padding: 12px 15px;
-  font-size: 13px;
-  border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.submenu li:last-child a { border-bottom: none; }
-.topmenu > li:hover .submenu {
-  opacity: 1;
-  transform: scaleY(1);
-}
-.pdec{
-  color: #FFD991;
-  font-family: cursive;
-  font-size: 2.5em;
-  padding: 20px 0;
-}
- .p{
+.p{
   color: #FFD991;
   font-family: cursive;
   font-size: 1.5em;
  }
- .button {
-  display: inline-block;
-  width: 140px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
-  outline: none;
-  border: none;
-  border-radius: 100px;
-  background: rgb(166,115,18) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
-  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
-  color: rgb(0,79,86);
-  user-select: none;
+.pr1 {
+    margin-top:30px;
+    width: 200px;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+	margin-left:150px;
+	text-align:center;
+   }
+
+a{text-decoration: none
+    font-family:'Roboto',sans-serif;
 }
-.button:hover {
-  color: rgb(0,59,66);
-  cursor: pointer;
-}
-.button:active {
-  padding-bottom: 1px;
-  box-shadow:
-   inset rgba(0,0,0,1) 0 1px 3px,
-   inset rgba(0,0,0,.6) 0 -2px 5px,
-   inset rgba(252,255,255,.7) 0 2px 5px,
-   0 1px rgba(255,255,255,.08);
-  color: rgb(128,207,214);
-}
-.table{
-  border: 2px solid black;
-  padding: 5px;
-}
-.submenu li a{
-    padding: 0;
-    padding-top: 10px;
+div:hover {
+    border:solid 3px black;
+    text-decoration:none;
 }
